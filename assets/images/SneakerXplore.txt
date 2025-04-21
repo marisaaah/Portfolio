@@ -1,0 +1,37 @@
+SneakerXplore is a groundbreaking sneaker community app designed 
+to revolutionize sneaker culture in Canada. With a focus on providing 
+access to limited edition sneakers at retail prices, SneakerXplore aims
+to address the challenges faced by sneaker enthusiasts in Canada, 
+where acquiring exclusive releases at retail prices can be difficult
+due to the dominance of resale platforms. 
+
+#Languages used include:
+FRONTEND:
+- React Native
+- JavaScript
+BACKEND :
+- Node.js
+- Express.js
+- MongoDB
+#Features
+- Real-time Sneaker Release Prices
+- Sneaker Release Calendar
+- Sneaker News
+- Sneaker Search eNGINE
+#Testing
+- Jest
+#Deployment
+- BACKEND:
+- Render
+- FRONTEND :
+- Netlify
+#Database
+- MongoDB
+#API Integration
+- SneakerJaggers API
+- Sneakernews API
+#Third Party Libraries
+- React Navigation
+- React Native Gesture Handler
+
+
