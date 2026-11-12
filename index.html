@@ -1,262 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-9W44HSJFQF"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-9W44HSJFQF');
-      </script>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="Portfolio of Tafadzwa Marisa, a developer specializing in web and software development." />
-      <meta name="keywords" content="Tafadzwa Marisa, Portfolio, Developer, Web Development, Software Development" />
-      <!-- --------- UNICONS ---------- -->
-      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
-      <!-- --------- CSS ---------- -->
-      <link rel="stylesheet" href="assets/css/style.css" />
-      <link rel="stylesheet" href="assets/css/mediaqueries.css" />
-      <!-- --------- FAVICON ---------- -->
-      <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
-      
-      <title>Portfolio | Marisa</title>
-   </head>
-   <body>
-      <div class="container">
-         <!-- --------------- HEADER --------------- -->
-         <nav id="header">
-            <div class="nav-logo">
-               <p class="nav-name">Marisa</p>
-               <span>.</span>
-            </div>
-            <div class="nav-menu" id="myNavMenu">
-             
-            </div> 
-            <div class="contact-info-container">
-               <p><a href="mailto:Tafadzwamarisa00@gmail.com">Email</a></p>
-                  <img
-                    src="./assets/icons/email.png"
-                    alt="Email icon"
-                    class="icon contact-icon email-icon"
-                  />
-                  
-            </div>
-           
-         </nav>
-         <!-- ---------------- MAIN ---------------- -->
-         <main class="wrapper">
-            <!-- -------------- FEATURED BOX ---------------- -->
-            <div class="featured-box" id="home">
-               <div class="featured-text">
-                  <div class="featured-text-card">
-                     <span>Tafadzwa Marisa</span>
-                  </div>
-                  <div class="featured-name">
-                     <p>I'm a <span class="typedText"></span> Developer</p>
-                  </div>
-                  <div class="featured-text-btn">
-                     <a href="https://www.dropbox.com/scl/fi/jpgp5i17ndvh5xrspbfkw/Tafadzwa-Marisa-Master-Resume.pdf?rlkey=o8ib0x81wajchzvhhklp5h5h2&st=0gbieei5&dl=0" target="_blank">
-                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-                     </a>
-                  </div>
-                  <div class="social_icons">
-                     <div class="icon">
-                        <a href="https://www.instagram.com/marisahzw/" target="_blank"><i class="uil uil-instagram" aria-label="Instagram"></i></a>
-                     </div>
-                     <div class="icon">
-                        <a href="https://www.linkedin.com/in/tafadzwamarisa/" target="_blank"><i class="uil uil-linkedin-alt" aria-label="LinkedIn"></i></a>
-                     </div>
-                     <div class="icon">
-                        <a href="https://github.com/marisaaah" target="_blank"><i class="uil uil-github-alt" aria-label="GitHub"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Tafadzwa Marisa, software developer and IT professional. Full-stack development, Microsoft Power Platform, enterprise applications and IT infrastructure.">
+<title>Tafadzwa Marisa | Software Developer &amp; IT Professional</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="cursor" aria-hidden="true"><span class="cursor-label"></span></div>
 
+<header class="nav">
+  <nav class="nav-pill" aria-label="Main">
+    <a class="brand" href="#home"><span class="brand-dot" aria-hidden="true"></span>Marisa</a>
+    <ul class="nav-links">
+      <li class="nav-indicator" aria-hidden="true"></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+    </ul>
+    <a class="btn btn-ink nav-cta magnetic" href="#contact"><span class="btn-label">Say hello</span></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span></button>
+  </nav>
+</header>
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <div class="mm-line"><a href="#about">About</a></div>
+  <div class="mm-line"><a href="#experience">Experience</a></div>
+  <div class="mm-line"><a href="#projects">Projects</a></div>
+  <div class="mm-line"><a href="#skills">Skills</a></div>
+  <div class="mm-line"><a href="#education">Education</a></div>
+  <div class="mm-line"><a href="#contact">Contact</a></div>
+</div>
 
-            <!-- --------------- Projects --------------- -->
-            <div class="projects-section" id="projects">
-               <div class="top-header">
-                  <h1  class="front">Projects</h1>
-               </div>
-               
-                <div class="projects-container">
+<main>
+  <section class="hero wrap" id="home">
+    <span class="shape s1" data-depth="40" aria-hidden="true"></span>
+    <span class="shape s2" data-depth="-60" aria-hidden="true"></span>
+    <span class="shape s3" data-depth="25" aria-hidden="true"></span>
+    <span class="shape s4" data-depth="-35" aria-hidden="true"></span>
+    <div class="sticker" aria-hidden="true">
+      <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-48,0 a48,48 0 1,1 96,0 a48,48 0 1,1 -96,0"/></defs>
+        <text><textPath href="#circ" textLength="296" lengthAdjust="spacing">BUILDING USEFUL SOFTWARE ✦ SOLVING REAL PROBLEMS ✦</textPath></text></svg>
+      <div class="sticker-core">TM</div>
+    </div>
 
-                   <!--project1-->
-                  <div class="project-container color-container">
-                    <div class="article-container">
-                      <img
-                        src="./assets/images/lamiewear.png"
-                        alt="Project 1 - lamiewear"
-                        class="project-img"
-                      />
-                    </div>
-                    <h2 class="experience-sub-title project-title">LamieWear</h2>
-                    <div class="btn-container">                    
-
-                        <button
-                        class="btn btn-color-2 project-btn"
-                        onclick="window.open('https://lamiewear.vercel.app/', '_blank')"
-                      >
-                        Live Demo
-                      </button>
-                      
-                    </div>
-                    <div class="text-container">
-                     <p class="project-text">
-                        Built an online shoping website fullstack(React js, express js, mongodb and node js),
-                        
-                     </p>
-                    </div>
-                  </div>
-
-                   <!--project2-->
-                 <div class="project-container color-container">
-                  <div class="article-container">
-                    <img
-                      src="./assets/images/maphosite.png"
-                      alt="Project 5"
-                      class="project-img"
-                    />
-                  </div>
-                  <h2 class="experience-sub-title project-title">PERSONAL BLOG</h2>
-                  <div class="btn-container">    
-                   <button
-                   class="btn btn-color-2 project-btn"
-                   onclick="window.open('https://maphosd-tafadzwa-marisas-projects.vercel.app/', '_blank')"
-                 >
-                   Live Demo
-                 </button>
-                 
-                  </div>
-                  <div class="text-container">
-                     <p class="project-text">
-                        Built a fully functional personal blog website with an admin dashboard
-                         using fullstack(Next js, css, express js, mongodb and node js) 
-                     </p>
-                    </div>
-
-             </div>
-
-                  <!--project3-->
-                  <div class="project-container color-container">
-                    <div class="article-container">
-                      <img
-                        src="./assets/images/tennis-co.png"
-                        alt="Project 2"
-                        class="project-img"
-                      />
-                    </div>
-                    <h2 class="experience-sub-title project-title">TENNIS-CO</h2>
-                    <div class="btn-container">
-
-                   <button
-                   class="btn btn-color-2 project-btn"
-                   onclick="window.open('https://tennis-academy.netlify.app/', '_blank')"
-                 >
-                   Live Demo
-                 </button>
-                 
-                    </div>
-                    <div class="text-container">
-                     <p class="project-text">
-                        Built a responsive tennis-academy website using html,css and bootstrap.
-                     </p>
-                    </div>
-                  </div>
-
-                  <!--project4-->
-                  <div class="project-container color-container">
-                    <div class="article-container">
-                      <img
-                        src="./assets/images/employeemanagement.png"
-                        alt="Project 3"
-                        class="project-img"
-                      />
-                    </div>
-                    <h2 class="experience-sub-title project-title">RETAIL STORE</h2>
-                    <div class="btn-container">
-                     
-                     <button
-                     class="btn btn-color-2 project-btn"
-                     onclick="window.open('https://github.com/marisahzw/RETAIL-STORE-PYTHON.git', '_blank')"
-                   >
-                     Github
-                   </button>
-                 
-                  </div>
-                  <div class="text-container">
-                     <p class="project-text">
-                        Built a simple retail store using python.
-                     </p>
-                    </div>
-
-                  </div>
-
-                  <!--project5-->
-                  <div class="project-container color-container">
-                     <div class="article-container">
-                       <img
-                         src="./assets/images/employee-management.png"
-                         alt="Project 4"
-                         class="project-img"
-                       />
-                     </div>
-                     <h2 class="experience-sub-title project-title">CLEANING SERVICE</h2>
-                     <div class="btn-container">         
-                      <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="window.open('https://marisaaah.github.io/cleaning-service//', '_blank')"
-                    >
-                      Live Demo
-                    </button>
-                    
-                     </div>
-                     <div class="text-container">
-                        <p class="project-text">
-                           Built a cleaning service website using Html,JS, Css and Bootstrap.
-                        </p>
-                       </div>
-
-                </div>
-
-                
-
-                </div>
-           
-
-
-
-
-         </main>
-         <!-- --------------- FOOTER --------------- -->
-         <footer class="footer">
-            <div class="top-footer">
-               <p class="front">Tafadzwa Marisa .</p>
-            </div>
-            <div class="footer-social-icons">
-               <div class="icon">
-                  <a href="https://www.instagram.com/marisahzw/" target="_blank"><i class="uil uil-instagram" aria-label="Instagram"></i></a>
-               </div>
-               <div class="icon">
-                  <a href="https://www.linkedin.com/in/tafadzwamarisa/" target="_blank"><i class="uil uil-linkedin-alt" aria-label="LinkedIn"></i></a>
-               </div>
-               <div class="icon">
-                  <a href="https://github.com/marisaaah" target="_blank"><i class="uil uil-github-alt" aria-label="GitHub"></i></a>
-               </div>
-            </div>
-            <div class="bottom-footer">
-               <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Tafadzwa Marisa</a> - All rights reserved</p>
-            </div>
-         </footer>
+    <p class="hero-role"><span class="live" aria-hidden="true"></span>Software developer and IT professional, based in Ontario</p>
+    <h1 class="hero-name" aria-label="Tafadzwa Marisa">
+      <span class="name-line" aria-hidden="true">Tafadzwa</span>
+      <span class="name-line" aria-hidden="true">Marisa</span>
+    </h1>
+    <div class="hero-foot">
+      <div>
+        <p class="hero-intro">I’m a Computer Science student at Trent University and an IT intern at Mariposa Dairy. I build web apps, Power Platform tools and keep the machines and networks behind them running.</p>
+        <div class="hero-actions">
+          <a class="btn btn-ink magnetic" href="#projects"><span class="btn-label">See my work</span></a>
+          <a class="btn btn-ghost magnetic" href="mailto:Tafadzwamarisa00@gmail.com"><span class="btn-label">Email me</span></a>
+        </div>
+        <p class="hero-hint"><span class="hint-hand" aria-hidden="true">✋</span><span class="hint-text">The letters in my name move. Grab one and throw it.</span></p>
       </div>
-      <!-- ----- TYPING JS Link ----- -->
-      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-      <!-- ----- SCROLL REVEAL JS Link----- -->
-      <script src="https://unpkg.com/scrollreveal"></script>
-      <!-- ----- MAIN JS ----- -->
-      <script src="assets/js/main.js"></script>
-   </body>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/tafadzwamarisa/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com/marisaaah" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="about">
+    <h2 class="reveal">Technology that makes work better</h2>
+    <div class="about-grid">
+      <p class="about-lead">I enjoy bringing ideas to life through code and practical technology, and I like finding the real cause of a problem before building the fix.</p>
+      <div class="about-body">
+        <p>I’m studying <strong>Computer Science at Trent University</strong> and hold an <strong>Advanced Diploma in Computer Programming and Analysis</strong> from George Brown College. My interests span software engineering, web development, enterprise applications and IT infrastructure.</p>
+        <p>At Mariposa Dairy I work on business applications, document workflows, employee training, visitor registration and day-to-day technical support. On my own time I build web and software projects to keep sharpening my programming.</p>
+        <p>Curious by nature. Practical by design.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="experience">
+    <h2 class="reveal">Where I put technology into practice</h2>
+    <article class="exp-card">
+      <div class="exp-head">
+        <div>
+          <h3>IT Intern <span class="at">at</span> Mariposa Dairy Ltd.</h3>
+          <p class="exp-where">Lindsay, Ontario, on-site</p>
+        </div>
+        <span class="exp-date"><span class="live" aria-hidden="true" style="background:var(--on-accent)"></span>May 2026 to present</span>
+      </div>
+      <p class="exp-summary">I support business technology operations while building digital tools for internal processes. Half of my work is enterprise app development, the other half is hands-on IT support.</p>
+      <div class="tabs" role="tablist" aria-label="Responsibilities">
+        <span class="tab-ind" aria-hidden="true"></span>
+        <button class="tab" role="tab" id="tab-apps" aria-controls="panel-apps" aria-selected="true">Applications and automation</button>
+        <button class="tab" role="tab" id="tab-ops" aria-controls="panel-ops" aria-selected="false" tabindex="-1">IT operations and support</button>
+      </div>
+      <ul class="tab-panel" id="panel-apps" role="tabpanel" aria-labelledby="tab-apps">
+        <li>Develop business applications with Microsoft Power Apps.</li>
+        <li>Build document submission, review and approval workflows.</li>
+        <li>Develop employee training and visitor management solutions.</li>
+        <li>Use SharePoint to store and manage business information.</li>
+        <li>Configure and troubleshoot Power Automate workflows.</li>
+        <li>Work with Power Pages on an external visitor-facing portal.</li>
+      </ul>
+      <ul class="tab-panel ops" id="panel-ops" role="tabpanel" aria-labelledby="tab-ops" hidden>
+        <li>Set up and configure computers, workstations and peripherals.</li>
+        <li>Configure Windows devices and join them to the company domain.</li>
+        <li>Install and troubleshoot printers and office equipment.</li>
+        <li>Troubleshoot wired and wireless network connectivity.</li>
+        <li>Help with access point, switch and VPN troubleshooting.</li>
+        <li>Provide hardware and software support to employees.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Power Apps</span><span class="tag">Power Automate</span><span class="tag">Power Pages</span><span class="tag">SharePoint</span><span class="tag">Windows</span><span class="tag">Networking</span><span class="tag">IT Support</span>
+      </div>
+    </article>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="pin">
+      <div class="wrap proj-head">
+        <div>
+          <h2 class="reveal">Projects built to solve problems</h2>
+          <p class="lede">Enterprise tools from my internship, plus the things I build on my own. Professional cards flip over to show how they work.</p>
+        </div>
+        <div class="proj-ctrl">
+          <button class="proj-nav proj-prev" type="button" aria-label="Previous project">←</button>
+          <div class="proj-progress" aria-hidden="true"><i></i></div>
+          <button class="proj-nav proj-next" type="button" aria-label="Next project">→</button>
+        </div>
+      </div>
+      <div class="track">
+        <div class="group-card pro">
+          <h3>At Mariposa Dairy</h3>
+          <p>Power Platform apps and automation used inside the business. Visuals here are illustrations, not screenshots of internal systems.</p>
+        </div>
+
+        <article class="card">
+          <div class="card-inner">
+            <div class="face front">
+              <div class="art art-docs" aria-hidden="true">
+                <div class="flow">
+                  <div class="step"><b>1</b>Submit document</div>
+                  <div class="step"><b>2</b>Review and approve</div>
+                  <div class="step"><b>3</b>Electronic signature</div>
+                  <span class="token"></span>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="kind">Power Platform and SharePoint</span>
+                <h3>Document management and approval workflow</h3>
+                <p>Submission, review, approval and e-signing, connecting Power Apps, SharePoint, Power Automate and Adobe Acrobat Sign.</p>
+                <div class="card-foot"><span class="note">Company project</span><button class="flip-btn" aria-expanded="false">How it works</button></div>
+              </div>
+            </div>
+            <div class="face back" inert>
+              <div class="back-inner">
+                <h3>Document workflow</h3>
+                <ul>
+                  <li>Power Apps submission interface connected to a SharePoint document library.</li>
+                  <li>Document metadata, reviewer assignments, comments and approval history.</li>
+                  <li>Power Automate notifications and approval coordination.</li>
+                  <li>Adobe Acrobat Sign integration and signed PDF handling.</li>
+                </ul>
+                <button class="flip-btn">Flip back</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-inner">
+            <div class="face front">
+              <div class="art art-train" aria-hidden="true">
+                <div class="board">
+                  <div class="board-row"><span>Safety induction</span><span class="pill">Complete</span></div>
+                  <div class="board-row"><span>Required training</span><span class="pill wait">In progress</span></div>
+                  <div class="board-row"><span>Equipment sign-off</span><span class="pill">Complete</span></div>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="kind">Power Apps and SharePoint</span>
+                <h3>Employee training matrix</h3>
+                <p>A Power Apps solution that organizes training information and makes completion easier to monitor.</p>
+                <div class="card-foot"><span class="note">Internal data isn’t shown</span><button class="flip-btn" aria-expanded="false">How it works</button></div>
+              </div>
+            </div>
+            <div class="face back" inert>
+              <div class="back-inner">
+                <h3>Training matrix</h3>
+                <ul>
+                  <li>Power Apps interface for employee training records.</li>
+                  <li>SharePoint integration for structured data storage.</li>
+                  <li>Training status and completion tracking.</li>
+                </ul>
+                <button class="flip-btn">Flip back</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-inner">
+            <div class="face front">
+              <div class="art art-visit" aria-hidden="true">
+                <div class="portal">
+                  <strong>Visitor registration</strong>
+                  <div class="field"><i></i></div>
+                  <div class="field"><i></i></div>
+                  <div class="submit">Submit</div>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="kind">Power Pages and Power Apps</span>
+                <h3>Visitor management system</h3>
+                <p>An external Power Pages portal for visitors, paired with an internal Power Apps tool for staff.</p>
+                <div class="card-foot"><span class="note">Internal data isn’t shown</span><button class="flip-btn" aria-expanded="false">How it works</button></div>
+              </div>
+            </div>
+            <div class="face back" inert>
+              <div class="back-inner">
+                <h3>Visitor management</h3>
+                <ul>
+                  <li>Visitor-facing information submission portal.</li>
+                  <li>Internal application for managing visitor records.</li>
+                  <li>SharePoint integration for storing visitor information.</li>
+                </ul>
+                <button class="flip-btn">Flip back</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="group-card own">
+          <h3>On my own time</h3>
+          <p>Independent web and software projects. Each one links to a live site or its source.</p>
+        </div>
+
+        <article class="card">
+          <div class="card-inner"><div class="face front">
+            <div class="art art-shop" aria-hidden="true"><span class="poster-shape"></span><span class="poster">LW.</span></div>
+            <div class="card-body">
+              <span class="kind">Full-stack development</span>
+              <h3>LamieWear</h3>
+              <p>An online store with customer-facing shopping and an admin side for managing it.</p>
+              <div class="tags"><span class="tag">React</span><span class="tag">Express.js</span><span class="tag">Node.js</span><span class="tag">MongoDB</span></div>
+              <div class="card-foot"><a class="link-btn" href="https://lamiewear.vercel.app/" target="_blank" rel="noopener noreferrer">Visit site ↗</a></div>
+            </div>
+          </div></div>
+        </article>
+
+        <article class="card">
+          <div class="card-inner"><div class="face front">
+            <div class="art art-blog" aria-hidden="true"><span class="poster-shape"></span><span class="poster">The<br>personal<br>journal</span></div>
+            <div class="card-body">
+              <span class="kind">Full-stack development</span>
+              <h3>Personal blog</h3>
+              <p>A blogging platform with an admin dashboard for writing and managing posts.</p>
+              <div class="tags"><span class="tag">Next.js</span><span class="tag">Express.js</span><span class="tag">Node.js</span><span class="tag">MongoDB</span></div>
+              <div class="card-foot"><a class="link-btn" href="https://maphosd-tafadzwa-marisas-projects.vercel.app/" target="_blank" rel="noopener noreferrer">Visit site ↗</a></div>
+            </div>
+          </div></div>
+        </article>
+
+        <article class="card">
+          <div class="card-inner"><div class="face front">
+            <div class="art art-tennis" aria-hidden="true"><span class="poster-shape"></span><span class="poster">Court<br>ready</span></div>
+            <div class="card-body">
+              <span class="kind">Web development</span>
+              <h3>Tennis-Co</h3>
+              <p>A responsive website concept for a tennis academy.</p>
+              <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Bootstrap</span></div>
+              <div class="card-foot"><a class="link-btn" href="https://tennis-academy.netlify.app/" target="_blank" rel="noopener noreferrer">Visit site ↗</a></div>
+            </div>
+          </div></div>
+        </article>
+
+        <article class="card">
+          <div class="card-inner"><div class="face front">
+            <div class="art art-retail" aria-hidden="true"><span class="poster-shape"></span><span class="poster">Retail<br>store</span></div>
+            <div class="card-body">
+              <span class="kind">Software development</span>
+              <h3>Retail store</h3>
+              <p>A Python application for running a small retail store.</p>
+              <div class="tags"><span class="tag">Python</span></div>
+              <div class="card-foot"><a class="link-btn" href="https://github.com/marisahzw/RETAIL-STORE-PYTHON.git" target="_blank" rel="noopener noreferrer">View source ↗</a></div>
+            </div>
+          </div></div>
+        </article>
+
+        <article class="card">
+          <div class="card-inner"><div class="face front">
+            <div class="art art-clean" aria-hidden="true"><span class="poster-shape"></span><span class="poster">Fresh<br>space</span></div>
+            <div class="card-body">
+              <span class="kind">Web development</span>
+              <h3>Cleaning service</h3>
+              <p>A responsive website for a cleaning service business.</p>
+              <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Bootstrap</span></div>
+              <div class="card-foot"><a class="link-btn" href="https://marisaaah.github.io/cleaning-service/" target="_blank" rel="noopener noreferrer">Visit site ↗</a></div>
+            </div>
+          </div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="skills">
+    <div class="skills-top">
+      <div>
+        <h2 class="reveal">Tools I use to make things work</h2>
+        <p class="lede">My toolbox, sorted by what each tool is for. Scatter it and play around.</p>
+      </div>
+      <div class="skill-controls">
+        <button class="btn btn-ink magnetic" id="mode-btn" aria-pressed="false"><span class="btn-label">Scatter the toolbox</span></button>
+        <button class="btn btn-ghost magnetic" id="shake-btn" hidden><span class="btn-label">Shake it</span></button>
+      </div>
+    </div>
+    <div class="toolbox" id="toolbox">
+      <div class="groups">
+        <div class="group" style="--c:var(--blue)"><h3>Languages</h3><div class="chips" data-group="lang">
+          <span class="chip c-blue">Java</span><span class="chip c-blue">Python</span><span class="chip c-blue">C#</span><span class="chip c-blue">JavaScript</span></div></div>
+        <div class="group" style="--c:var(--violet)"><h3>Web</h3><div class="chips" data-group="web">
+          <span class="chip" style="--c:var(--violet)">React</span><span class="chip" style="--c:var(--violet)">Next.js</span><span class="chip" style="--c:var(--violet)">Node.js</span><span class="chip" style="--c:var(--violet)">Express</span><span class="chip" style="--c:var(--violet)">HTML</span><span class="chip" style="--c:var(--violet)">CSS</span><span class="chip" style="--c:var(--violet)">Bootstrap</span></div></div>
+        <div class="group" style="--c:var(--sun)"><h3>Microsoft platform</h3><div class="chips" data-group="ms">
+          <span class="chip" style="--c:var(--sun)">Power Apps</span><span class="chip" style="--c:var(--sun)">Power Automate</span><span class="chip" style="--c:var(--sun)">Power Pages</span><span class="chip" style="--c:var(--sun)">Power BI</span><span class="chip" style="--c:var(--sun)">SharePoint</span><span class="chip" style="--c:var(--sun)">Microsoft 365</span></div></div>
+        <div class="group" style="--c:var(--pink)"><h3>Databases</h3><div class="chips" data-group="db">
+          <span class="chip" style="--c:var(--pink)">MySQL</span><span class="chip" style="--c:var(--pink)">MongoDB</span><span class="chip" style="--c:var(--pink)">SQL</span></div></div>
+        <div class="group" style="--c:var(--mint)"><h3>IT and support</h3><div class="chips" data-group="it">
+          <span class="chip" style="--c:var(--mint)">Windows</span><span class="chip" style="--c:var(--mint)">Domain configuration</span><span class="chip" style="--c:var(--mint)">Networking</span><span class="chip" style="--c:var(--mint)">VPN</span><span class="chip" style="--c:var(--mint)">Hardware and printers</span><span class="chip" style="--c:var(--mint)">Workstation deployment</span><span class="chip" style="--c:var(--mint)">Troubleshooting</span></div></div>
+        <div class="group" style="--c:var(--surface-2)"><h3>Dev tools</h3><div class="chips" data-group="tools">
+          <span class="chip c-outline">Git</span><span class="chip c-outline">GitHub</span><span class="chip c-outline">Linux</span><span class="chip c-outline">VS Code</span></div></div>
+      </div>
+      <div class="pile" aria-hidden="true"></div>
+      <p class="toolbox-tip">Drag and throw the tools. Tidy up puts them back in their groups.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="education">
+    <h2 class="reveal">Learning, building and growing</h2>
+    <div class="timeline">
+      <div class="tl-line" aria-hidden="true"><div class="tl-fill"></div></div>
+      <div class="now" aria-hidden="true"><span>Now</span><i></i></div>
+      <div class="tl-items">
+        <article class="tl-item">
+          <span class="tl-dot" aria-hidden="true"></span>
+          <div><span class="tl-year">2024</span><span class="tl-state">Completed</span></div>
+          <h3>Advanced Diploma in Computer Programming and Analysis</h3>
+          <p>George Brown College, Toronto</p>
+        </article>
+        <article class="tl-item future">
+          <span class="tl-dot" aria-hidden="true"></span>
+          <div><span class="tl-year">2027</span><span class="tl-state">Expected</span></div>
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>Trent University, Peterborough</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap contact" id="contact">
+    <h2 class="reveal">Let’s build something useful together</h2>
+    <p class="lede">Happy to talk about software development, enterprise apps, IT, or an interesting technical project.</p>
+    <div class="contact-actions">
+      <button class="btn btn-ink magnetic" id="copy-btn"><span class="btn-label">Copy my email</span></button>
+      <a class="btn btn-ghost magnetic" href="mailto:Tafadzwamarisa00@gmail.com"><span class="btn-label">Open in mail app</span></a>
+    </div>
+    <p class="email-line">Tafadzwamarisa00@gmail.com</p>
+    <p class="copy-status" role="status" aria-live="polite"></p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/tafadzwamarisa/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="https://github.com/marisaaah" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <a class="brand" href="#home"><span class="brand-dot" aria-hidden="true"></span>Marisa</a>
+    <p>© <span id="year"></span> Tafadzwa Marisa</p>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Draggable.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/InertiaPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Flip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
 </html>
